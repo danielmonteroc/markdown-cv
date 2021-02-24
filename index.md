@@ -1,13 +1,12 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Daniel Montero Cervantes (Resume)
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Daniel Montero Cervantes 
+Senior Software Engineer
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="ing.danielmontero@gmail.com">ing.danielmontero@gmail.com</a>
 </div>
 
 
