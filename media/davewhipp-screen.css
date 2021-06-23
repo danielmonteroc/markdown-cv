@@ -93,11 +93,11 @@ ul {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/
@@ -150,6 +150,8 @@ h3 {
 	top: 1.7em;
 	text-align: right;
 	width: 20%;
+	font-style: oblique;
+	font-weight: bolder;
 }
 
 a {
