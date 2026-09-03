@@ -3,7 +3,7 @@ layout: cv
 title: Daniel Montero Cervantes (Resume)
 ---
 # Daniel Montero Cervantes 
-Senior Software Engineer
+Principal Application Software Engineer
 
 <div id="webaddress">
 <a href="mailto:ing.danielmontero@gmail.com">ing.danielmontero@gmail.com</a>
@@ -18,9 +18,25 @@ Computer Engineering Degree
 
 ## Work Experience
 
+### Oracle
+Principal Application Software Engineer
+``(Oct 2021 – Present)``
+
+Working on Oracle Communications Cloud Native Core as part of the Service Communication Proxy (SCP) team. Involved in the design, development, testing, and maintenance of cloud-native microservices for 5G networks.
+
+Using technologies such as:
+
+- Java
+- Micronaut
+- Gradle
+- Kubernetes
+- Helm
+- GitLab CI/CD
+- REST APIs and HTTP/2
+
 ### Digital On Us
 Senior Software Engineer 
-``(May 2019 – Present)``
+``(May 2019 – Oct 2021)``
 
 Involved on design and development of different services, using agile methodologies and test-driven development principles. Working on full stack applications although focused more on the back end. 
 
@@ -94,4 +110,3 @@ Working developing games for android platform using NDK using mainly C++ program
 
 ## Cloud
  - Azure
-
