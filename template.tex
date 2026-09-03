@@ -1,0 +1,58 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.6in]{geometry}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{microtype}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{accent}{HTML}{A23B2A}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdfauthor={$title$},
+  pdftitle={$title$ - Resume}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=1.2em,noitemsep,topsep=2pt}
+\setcounter{secnumdepth}{0}
+\emergencystretch=2em
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0pt}{}
+  [\vspace{-0.35em}\rule{\textwidth}{0.4pt}]
+\titlespacing*{\section}{0pt}{0.9em}{0.35em}
+
+\titleformat{\subsection}
+  {\normalsize\bfseries}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0.7em}{0.1em}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+\raggedright
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{center}
+  {\fontsize{25}{29}\selectfont\bfseries $title$\par}
+  \vspace{2pt}
+  {\large $subtitle$\par}
+  \vspace{4pt}
+  \href{mailto:$email$}{$email$}\quad|\quad $phone$
+\end{center}
+
+$body$
+
+\end{document}
