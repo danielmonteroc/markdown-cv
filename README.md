@@ -4,7 +4,7 @@ The resume is maintained in Markdown and rendered directly to PDF with Pandoc an
 
 ## Install dependencies
 
-The build requires [Pandoc](https://pandoc.org/), [Tectonic](https://tectonic-typesetting.github.io/), and Ubuntu Nerd Font. Run the installer for your platform once.
+The build requires [Pandoc](https://pandoc.org/) and [Tectonic](https://tectonic-typesetting.github.io/). The Ubuntu Nerd Font files are bundled in `fonts/` and embedded in the generated PDF, so the build does not depend on a machine-specific font path. The platform installers also install the font system-wide.
 
 macOS with Homebrew:
 

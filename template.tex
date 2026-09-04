@@ -8,7 +8,12 @@
 \usepackage{titlesec}
 \usepackage{microtype}
 
-\setsansfont{Ubuntu Nerd Font Propo}
+\setsansfont[
+  Path=fonts/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold
+]{UbuntuNerdFontPropo}
 \renewcommand{\familydefault}{\sfdefault}
 
 \definecolor{accent}{HTML}{1F4E79}
