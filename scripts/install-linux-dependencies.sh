@@ -10,6 +10,7 @@ fi
 packages=()
 command -v pandoc >/dev/null 2>&1 || packages+=(pandoc-cli)
 command -v tectonic >/dev/null 2>&1 || packages+=(tectonic)
+pacman -Qq ttf-ubuntu-nerd >/dev/null 2>&1 || packages+=(ttf-ubuntu-nerd)
 
 if ((${#packages[@]})); then
   pacman_command=(pacman)
@@ -24,5 +25,5 @@ if ((${#packages[@]})); then
   echo "Installing missing dependencies: ${packages[*]}"
   "${pacman_command[@]}" -S --needed --noconfirm "${packages[@]}"
 else
-  echo "Pandoc and Tectonic are already installed."
+  echo "Pandoc, Tectonic, and Ubuntu Nerd Font are already installed."
 fi

@@ -10,10 +10,16 @@ fi
 packages=()
 command -v pandoc >/dev/null 2>&1 || packages+=(pandoc)
 command -v tectonic >/dev/null 2>&1 || packages+=(tectonic)
+font_cask=font-ubuntu-nerd-font
 
 if ((${#packages[@]})); then
   echo "Installing missing dependencies: ${packages[*]}"
   brew install "${packages[@]}"
-else
-  echo "Pandoc and Tectonic are already installed."
 fi
+
+if ! brew list --cask "$font_cask" >/dev/null 2>&1; then
+  echo "Installing Ubuntu Nerd Font"
+  brew install --cask "$font_cask"
+fi
+
+echo "Pandoc, Tectonic, and Ubuntu Nerd Font are available."

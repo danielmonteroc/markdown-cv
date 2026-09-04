@@ -11,6 +11,15 @@ if (-not (Get-Command pandoc -ErrorAction SilentlyContinue)) {
 if (-not (Get-Command tectonic -ErrorAction SilentlyContinue)) {
     $Packages += "tectonic"
 }
+$FontPackage = "nerd-fonts-ubuntu"
+$ChocolateyRoot = if ($env:ChocolateyInstall) {
+    $env:ChocolateyInstall
+} else {
+    Join-Path $env:ProgramData "chocolatey"
+}
+if (-not (Test-Path (Join-Path $ChocolateyRoot "lib\$FontPackage"))) {
+    $Packages += $FontPackage
+}
 
 foreach ($Package in $Packages) {
     Write-Host "Installing missing dependency: $Package"
@@ -33,4 +42,4 @@ if (-not (Get-Command tectonic -ErrorAction SilentlyContinue)) {
     throw "Tectonic was installed but is not available on PATH. Open a new PowerShell window and run the script again."
 }
 
-Write-Host "Pandoc and Tectonic are available."
+Write-Host "Pandoc, Tectonic, and Ubuntu Nerd Font are available."

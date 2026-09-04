@@ -4,7 +4,7 @@ The resume is maintained in Markdown and rendered directly to PDF with Pandoc an
 
 ## Install dependencies
 
-The build requires [Pandoc](https://pandoc.org/) and [Tectonic](https://tectonic-typesetting.github.io/). Run the installer for your platform once.
+The build requires [Pandoc](https://pandoc.org/), [Tectonic](https://tectonic-typesetting.github.io/), and Ubuntu Nerd Font. Run the installer for your platform once.
 
 macOS with Homebrew:
 
@@ -42,6 +42,6 @@ From the repository root:
 pandoc --defaults pandoc.yaml
 ```
 
-The command reads `resume.md` and creates `resume.pdf`. Layout and typography are defined in `template.tex`.
+The command reads `resume.md` and creates `resume.pdf`. Layout and Ubuntu Nerd Font typography are defined in `template.tex`.
 
 GitHub Pages serves the static `index.html`, which opens the generated PDF. The `.nojekyll` file disables the Jekyll build step.
