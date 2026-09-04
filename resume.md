@@ -19,7 +19,7 @@ phone: 3314-481940
 
 Working on Oracle Communications Cloud Native Core as part of the Service Communication Proxy (SCP) team. Contributing to the design, development, testing, and maintenance of cloud-native microservices for 5G networks.
 
-**Technologies:** Java, Micronaut, Gradle, Kubernetes, Helm, GitLab CI/CD, REST APIs, and HTTP/2.
+**Technologies:** Java, Micronaut, Spring Boot, Gradle, Kubernetes, Helm, GitLab CI/CD, REST APIs, and HTTP/2.
 
 ## Digital On Us
 
@@ -27,7 +27,7 @@ Working on Oracle Communications Cloud Native Core as part of the Service Commun
 
 Contributed to the design and development of several services using agile methodologies and test-driven development practices. Worked across the full stack, with a stronger focus on backend development.
 
-**Technologies:** Java 11, Spring Boot, Spring Core, Spring MVC, Spring Data, Spring WebFlux, Cassandra, MongoDB, Docker, and React.
+**Technologies:** Java, Spring Boot, Spring Core, Spring MVC, Spring Data, Spring WebFlux, Cassandra, MongoDB, Docker, and React.
 
 ## Oracle
 
@@ -35,13 +35,13 @@ Contributed to the design and development of several services using agile method
 
 Worked on an internal ERP application within Oracle Applications Labs, contributing to design, development, testing, support, and maintenance.
 
-**Technologies:** Java 8, Spring Boot, Hibernate, JUnit, and Oracle PL/SQL.
+**Technologies:** Java, Spring Boot, Hibernate, JUnit, and Oracle PL/SQL.
 
 ## Tata Consultancy Services
 
 **Software Engineer** \hfill Jun 2015 -- Nov 2016
 
-Worked with C++, J2EE, WebSphere, and MQ, primarily on a project to migrate C++ components to J2EE web services.
+Worked with C++, Java, WebSphere, and MQ, primarily on a project to migrate C++ components to J2EE web services.
 
 ## Gameloft
 
@@ -57,6 +57,6 @@ Developed Android games using the NDK, mainly in C++, along with Java, Python, a
 
 **Build, CI/CD, and version control:** Gradle, GitHub Actions, GitLab CI/CD, Git, and SVN.
 
-**Databases:** Oracle, PostgreSQL, Cassandra, and MongoDB.
+**Databases:** Oracle, PostgreSQL, MySQL, Cassandra, and MongoDB.
 
 **Cloud and containers:** Kubernetes, Helm, Docker, and Azure.
