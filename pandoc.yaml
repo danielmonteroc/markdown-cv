@@ -2,3 +2,6 @@ from: markdown+raw_tex
 standalone: true
 pdf-engine: tectonic
 template: template.tex
+input-files:
+  - resume.md
+output-file: resume.pdf

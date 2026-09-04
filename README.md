@@ -35,26 +35,16 @@ Windows with Chocolatey:
 .\scripts\build-windows.ps1
 ```
 
-With no arguments, the scripts convert `resume.md` to `resume.pdf`. They also set reproducible-build timestamps, so rebuilding unchanged content produces the same PDF. An alternative Markdown input and PDF output can be provided:
-
-```sh
-./scripts/build-macos.sh path/to/input.md path/to/output.pdf
-```
-
-```powershell
-.\scripts\build-windows.ps1 -InputPath path\to\input.md -OutputPath path\to\output.pdf
-```
+Each script converts the repository's `resume.md` to `resume.pdf`. They also set reproducible-build timestamps, so rebuilding unchanged content produces the same PDF.
 
 ## Build directly
 
 From the repository root:
 
 ```sh
-pandoc --defaults pandoc.yaml resume.md --output resume.pdf
+pandoc --defaults pandoc.yaml
 ```
 
 The command reads `resume.md` and creates `resume.pdf`. Layout and typography are defined in `template.tex`.
 
 GitHub Pages serves the static `index.html`, which opens the generated PDF. The `.nojekyll` file disables the Jekyll build step.
-
-This repository was originally based on [elipapa/markdown-cv](https://github.com/elipapa/markdown-cv) and remains available under the MIT License.
