@@ -60,3 +60,5 @@ Developed Android games using the NDK, mainly in C++, along with Java, Python, a
 **Databases:** Oracle, PostgreSQL, MySQL, Cassandra, and MongoDB.
 
 **Cloud and containers:** Kubernetes, Helm, Docker, and Azure.
+
+**AI tools:** Codex and ChatGPT, including MCP integration development, reusable skills, and prompt engineering.
