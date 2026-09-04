@@ -55,10 +55,11 @@ Developed Android games using the NDK, mainly in C++, along with Java, Python, a
 
 **Frameworks and libraries:** Micronaut, Spring Boot, Spring Core, Spring MVC, Spring Data, Spring WebFlux, React, and JUnit.
 
+**AI tools:** Codex and ChatGPT, including MCP integration development, reusable skills, and prompt engineering.
+
 **Build, CI/CD, and version control:** Gradle, GitHub Actions, GitLab CI/CD, Git, and SVN.
 
 **Databases:** Oracle, PostgreSQL, MySQL, Cassandra, and MongoDB.
 
 **Cloud and containers:** Kubernetes, Helm, Docker, and Azure.
 
-**AI tools:** Codex and ChatGPT, including MCP integration development, reusable skills, and prompt engineering.
