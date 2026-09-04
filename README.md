@@ -2,40 +2,37 @@
 
 The resume is maintained in Markdown and rendered directly to PDF with Pandoc and the Tectonic LaTeX engine.
 
-## Requirements
+## Install dependencies
 
-- [Pandoc](https://pandoc.org/)
-- [Tectonic](https://tectonic-typesetting.github.io/)
-
-On macOS with Homebrew:
-
-```sh
-brew install pandoc tectonic
-```
-
-## Build automatically
-
-Each platform script installs Pandoc or Tectonic when either command is missing, then generates the PDF.
+The build requires [Pandoc](https://pandoc.org/) and [Tectonic](https://tectonic-typesetting.github.io/). Run the installer for your platform once.
 
 macOS with Homebrew:
 
 ```sh
-./scripts/build-macos.sh
+./scripts/install-macos-dependencies.sh
 ```
 
 Arch Linux with pacman:
 
 ```sh
-./scripts/build-linux.sh
+./scripts/install-linux-dependencies.sh
 ```
 
-Windows with Chocolatey:
+Windows with Chocolatey, from PowerShell:
 
 ```powershell
-.\scripts\build-windows.ps1
+.\scripts\install-windows-dependencies.ps1
 ```
 
-Each script converts the repository's `resume.md` to `resume.pdf`. They also set reproducible-build timestamps, so rebuilding unchanged content produces the same PDF.
+## Build
+
+The build is the same on every platform. From a POSIX shell, including Git Bash on Windows:
+
+```sh
+./scripts/build.sh
+```
+
+The script converts the repository's `resume.md` to `resume.pdf` and sets reproducible-build timestamps, so rebuilding unchanged content produces the same PDF.
 
 ## Build directly
 
