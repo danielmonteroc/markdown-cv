@@ -17,7 +17,7 @@ phone: 3314-481940
 
 **Principal Application Software Engineer** \hfill Oct 2021 -- Present
 
-Working on Oracle Communications Cloud Native Core as part of the Service Communication Proxy (SCP) team. Contributing to the design, development, testing, and maintenance of cloud-native microservices for 5G networks.
+Working on Oracle Communications Cloud Native Core as part of the Service Communication Proxy (SCP) team. Contributing to the design, development, testing, and maintenance of cloud-native microservices for 5G networks. Serving as a Technical Lead for multiple features, providing technical direction, coordinating development efforts, and driving features from design through implementation and delivery.
 
 **Technologies:** Java, Micronaut, Spring Boot, Gradle, Kubernetes, Helm, GitLab CI/CD, REST APIs, and HTTP/2.
 
