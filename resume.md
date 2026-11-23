@@ -15,7 +15,7 @@ phone: 3314-481940
 
 ## Oracle
 
-**Principal Application Software Engineer** \hfill Oct 2021 -- Present
+**Principal Application Software Engineer** \hfill Nov 2021 -- Sep 2026
 
 Working on Oracle Communications Cloud Native Core as part of the Service Communication Proxy (SCP) team. Contributing to the design, development, testing, and maintenance of cloud-native microservices for 5G networks. Serving as a Technical Lead for multiple features, providing technical direction, coordinating development efforts, and driving features from design through implementation and delivery.
 
@@ -55,7 +55,7 @@ Developed Android games using the NDK, mainly in C++, along with Java, Python, a
 
 **Frameworks and libraries:** Micronaut, Spring Boot, Spring Core, Spring MVC, Spring Data, Spring WebFlux, React, and JUnit.
 
-**AI tools:** Codex and ChatGPT, including MCP integration development, reusable skills, and prompt engineering.
+**AI tools:** Advanced AI-assisted software engineering with OpenAI Codex and ChatGPT, including multi-agent orchestration, Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP) integrations, reusable agent skills, workflow automation, and advanced prompt engineering.
 
 **Build, CI/CD, and version control:** Gradle, GitHub Actions, GitLab CI/CD, Git, and SVN.
 
